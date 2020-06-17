@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.carousel').carousel();
+    $('.slider').slider();
+    $(".dropdown-trigger").dropdown();
+    $('.parallax').parallax();
+  });
+</script>
+<style>
+  .slider .indicators .indicator-item {
+    background-color: #666666;
+    border: 3px solid #ffffff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .slider .indicators .indicator-item.active {
+    background-color: #ffffff;
+  }
+
+  .slider .indicators {
+    bottom: 60px;
+    z-index: 100;
+    /* text-align: left; */
+  }
+
+  .grad-btm {
+    text-align: left;
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(0,0,0,0), rgba(0,0,0,.8) );
+  }
+
+  h3 {
+    margin-top: 0;
+    font-weight: 900;
+  }
+
+  fontre {
+    font-size: 1.5rem;
+  }
+
+  body {
+  background: #e2e1e0;
+
+  }
+
+</style>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body class="grey darken-4">
+
+  <nav class="grey darken-4">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Mesthe</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">홈페이지</a></li>
+        <li><a href="curriculumn.html">교욱과정</a></li>
+        <li><a href="hof.html">명예의전당</a></li>
+        <li><a href="https://www.instagram.com/_mesthe/">공지사항</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav grey darken-4" id="mobile-demo">
+    <li><a class="white-text" href="index.html">홈페이지</a></li>
+    <li><a class="white-text" href="curriculumn.html">교욱과정</a></li>
+    <li><a class="white-text" href="hof.html">명예의전당</a></li>
+    <li><a class="white-text" href="https://www.instagram.com/_mesthe/">공지사항</a></li>
+  </ul>
+
+  <div class="container white-text">
+    <br>
+    <div class="center">
+      <p >MESTHE CURRICULUM</p>
+      <h3>메스떼 교육과정</h1>
+      <p>각 분야별로 최적화된 교육을 통해 확실한 매출증대를 이뤄드립니다.</p>
+    </div>
+    <br>
+
+    <div class="row center">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/card1.jpg">
+            <span class="card-title grad-btm">매출을 늘리는,<br><strong>경영자 과정</strong></span>
+            <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
+          </div>
+          <div class="card-content grey-text text-darken-4">
+            <p>“뚜렷한 목표 없이 돈 별면 좋은거라 생각하며 운영해왔는데, 이젠 월 목표와 그에따른 주간, 일간 목표를 세우고 지키려고 노력하게 되었습니다.”</p>
+          </div>
+          <div class="card-action">
+            <a href="hof.html">우수사례 확인하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/card2.jpg">
+            <span class="card-title grad-btm">풍부한 지식,<br><strong>전문가 과정</strong></span>
+          </div>
+          <div class="card-content grey-text text-darken-4">
+            <p>"피부관리의 결과와 다음 일주일을 어떻게 보낼지 말하는 능력이 생겼습니다. 그러자 손님들이 저를 인정하고 믿고 따라오게 되었습니다."</p>
+          </div>
+          <div class="card-action">
+            <a href="hof.html">우수사례 확인하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/card3.jpg">
+            <span class="card-title grad-btm">효과적 관리,<br><strong>테크닉 과정</strong></span>
+          </div>
+          <div class="card-content grey-text text-darken-4">
+            <p>"'이런 제품을 쓰니까 이렇게 비싸요.'가 아니라 '테크닉을 통해서 이런 결과가 납니다.'라는 설명을 할 수 있게 되었습니다."</p>
+          </div>
+          <div class="card-action">
+            <a href="hof.html">우수사례 확인하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/card1.jpg">
+            <span class="card-title grad-btm">고객을 이끄는,<br><strong>브랜딩 과정</strong></span>
+          </div>
+          <div class="card-content grey-text text-darken-4">
+            <p>"브랜딩 자체를 어떻게 해라! 보다는 자신을 찾아가는, 나의 가치를 찾아가는 교육같아요. 그래서 가장 의미있는 교육이 아니였나 싶습니다."</p>
+          </div>
+          <div class="card-action">
+            <a href="hof.html">우수사례 확인하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+<footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Mesthe</h5>
+                <p class="grey-text text-lighten-4">피부관리사도 전문직이다.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">상담하기</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" style="font-size: 20px" href="tel:070-7918-5110"><i class="tiny material-icons">call</i>&nbsp&nbsp070-7918-5110</a></li>
+                  <li><a class="grey-text text-lighten-3" style="font-size: 20px" href="http://pf.kakao.com/_AHyqC"><i class="tiny material-icons">chat_bubble</i>&nbsp&nbsp메스떼</a></li>
+                  <li><a class="grey-text text-lighten-3" style="font-size: 20px" href="https://www.instagram.com/_mesthe/"><i class="tiny material-icons">photo_camera</i>&nbsp&nbsp@_mesthe</a></li>
+                  <li><a class="grey-text text-lighten-3" style="font-size: 20px" href="https://www.instagram.com/_mesthe/"><i class="tiny material-icons">location_on</i>&nbsp&nbsp서울 강남구 테헤란로 142</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Copyright © 2020, Mesthe, All rights reserved.
+            </div>
+          </div>
+  </footer>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large yellow" href="http://pf.kakao.com/_AHyqC">
+      <i class="large material-icons brown-text text-darken-4">chat_bubble</i>
+    </a>
+  </div>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
